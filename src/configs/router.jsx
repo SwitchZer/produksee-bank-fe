@@ -9,8 +9,8 @@ const MainRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/customers" element={<Customers />} />
+        {/* <Route path="/" element={<LandingPage />} /> */}
+        <Route path="/" element={<Customers />} />
         <Route path="/accounts" element={<Accounts />} />
         <Route path="/deposito" element={<Deposito />} />
       </Routes>

@@ -34,7 +34,7 @@ const Sidebar = () => {
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
           <ul className="space-y-2 font-medium">
-            <li>
+            {/* <li>
               <div
                 onClick={() => navigate("/")}
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
@@ -51,7 +51,7 @@ const Sidebar = () => {
                 </svg>
                 <span className="ms-3">Dashboard</span>
               </div>
-            </li>
+            </li> */}
             <li>
               <div
                 onClick={() => navigate("/accounts")}
@@ -71,7 +71,7 @@ const Sidebar = () => {
             </li>
             <li>
               <div
-                onClick={() => navigate("/customers")}
+                onClick={() => navigate("/")}
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg
